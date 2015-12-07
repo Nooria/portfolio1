@@ -1,0 +1,56 @@
+.logo {
+	float: left;
+}
+
+.names {
+	text-align: right;
+	float: right;
+	font-family: serif;
+	color: red;
+	padding-right: 70px;
+}	
+
+.mainpic {
+   max-width: 100%;
+   height: auto;
+   float: right;
+}
+
+.side-page {
+	font-size: 20px;
+	color: #00bfff;
+	font-style: italic;
+}
+
+.my-work {
+	font-size: 30px;
+	color: #e9967a;
+}
+
+@media screen and (max-width: 767px) {
+    .img-featured {
+        margin: 0 auto;
+    }
+
+    .featured-col {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        float: none;
+        margin-top: 15px;
+        display: block;
+        margin: auto;
+    }
+        
+    .names {
+        text-align: center;
+        float: none;
+    }
+
+    .mainpic {
+    	float: none;
+    }
+}
